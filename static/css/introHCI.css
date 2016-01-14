@@ -17,7 +17,7 @@ body {
 }
 a {
      font-style: italic;
-     color: #fbfbfb;
+     color: #fdfdfd;
 }
 body {
      font-family: Futura; 
@@ -89,8 +89,9 @@ li a.active {
 
 .jumbotron:after {
      content:"";
-     background: url("../images/background.jpg");
-     opacity: 0.2;
+     background: url("../images/bg-banner.png");
+     background-repeat: none;
+     opacity: 0.2; 
      top: 0;
      left: 0;
      bottom: 0;
